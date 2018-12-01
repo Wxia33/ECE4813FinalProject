@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>YES!</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <center>
+        <h1>Are you an Elite Yelp User?</h1>
+        <h3>Insert your information below to find out!</h3>
+    </center>
+
+    <form action="/testData" method="post" enctype="multipart/form-data">
+        <div class="form-group">
+            <label>Name</label>
+            <input type="text" class="form-control" name="name"  placeholder="Johnny McDonald">
+        </div>
+
+        <div class="form-group">
+            <label>Average Review Length</label>
+            <input type="text" class="form-control" name="reviewlength"  placeholder="160">
+        </div>
+
+        <div class="form-group">
+            <label>Consistency</label>
+            <input type="text" class="form-control" name="consistency"  placeholder="2">
+        </div>
+
+        <div class="form-group">
+            <label>Total Useful Reviews</label>
+            <input type="text" class="form-control" name="usefulreviews"  placeholder="8">
+        </div>
+
+        <div class="form-group">
+            <label>Total Reviews</label>
+            <input type="text" class="form-control" name="reviews"  placeholder="8">
+        </div>
+
+        <div class="form-group">
+            <label>Number of Fans</label>
+            <input type="text" class="form-control" name="fans"  placeholder="46">
+        </div>
+
+        <div class="form-group">
+            <label>Total Compliments</label>
+            <input type="text" class="form-control" name="compliments"  placeholder="93">
+        </div>
+
+        <div class="form-group">
+            <label>Votes Sent</label>
+            <input type="text" class="form-control" name="votes"  placeholder="108">
+        </div>
+
+        <div class="form-group">
+            <label>Yelping since</label>
+            <input type="text" class="form-control" name="time"  placeholder="2016-12-31">
+        </div>
+
+        <button type="submit" id="btnsubmit" class="btn btn-default">Submit</button>
+    </form>
+
+
+</body>
+
+</html>
