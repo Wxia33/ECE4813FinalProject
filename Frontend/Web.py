@@ -5,10 +5,10 @@ import json
 from flask import Flask, jsonify, abort, request, make_response, url_for
 from flask import render_template, redirect
 
-AWS_KEY="AKIAIMIKG5TXSHOARZKA"
-AWS_SECRET="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"
-REGION="us-east-2"
-BUCKET="tjohnson322-finalprojectbucket"
+AWS_KEY=""
+AWS_SECRET=""
+REGION=""
+BUCKET=""
 
 
 app = Flask(__name__)
